@@ -2,24 +2,28 @@
   box-sizing: border-box;
 }
 header{
-  height:30vh;
+  height:35vh;
+  width:100%;
   background-color: lightcyan;
   text-align: center;
 }
 
 .middle-section{
-  background-color:pink;
+  height:75vh;
+  width:80vw;
   display:flex;
-  flex:wrap;
+  flex-direction:row;
 }
 
 aside{
-  width:40vw;
-  height:80vh;
+  width:20vw;
+  height:75vh;
   background-color: lightseagreen;
 }
 
 .image-section{
+  width:70vw;
+  height:50vh;
   background-color: aliceblue;
   text-align:left;
   display:flex;
@@ -27,6 +31,7 @@ aside{
 }
 
 footer{
-  height:15vh;
+  height:30vh;
+  width:100%;
   background-color: lime;
 }
